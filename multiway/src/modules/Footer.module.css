@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #002f7a;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+    font-weight: bold;
+}
+
+.container a:hover {
+    text-shadow: 0px 0px 4px #ffffff;
+    
+}

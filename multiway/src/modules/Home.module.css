@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00264e;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.container button{
+    border: none;
+    padding: 10px;
+    background-color: #00264e;
+    color: #fff;
+    transition: .2s ease-in-out;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.container button:hover {
+    background-color: #004da0;
+    cursor: pointer;
+}
+
+.container img {
+    width: 5em;
+}
