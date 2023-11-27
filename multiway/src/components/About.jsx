@@ -2,12 +2,13 @@ import {Link} from 'react-router-dom'
 import styles from '../modules/About.module.css'
 import companycrew from './images/companycrew.png'
 import Footer from './Footer'
+import logo from './images/logo.png'
 
 export function About() {
     return(
         <div>
             <header className={styles.container}>
-            <h1>Logo</h1>
+            <img src={logo} alt='logo'/>
 
         <nav>
             <Link to="/"><button>Voltar</button></Link>
